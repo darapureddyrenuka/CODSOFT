@@ -1,0 +1,51 @@
+# Iris Flower Classification
+
+## Overview
+This project classifies Iris flowers into three species (*Setosa*, *Versicolor*, *Virginica*) using machine learning. The dataset consists of sepal and petal measurements for each flower, which are used to train a classification model.
+
+## Features
+- Data visualization (histograms, pairplots, boxplots, violin plots, confusion matrix)
+- Machine learning model using Random Forest Classifier
+- Performance evaluation with accuracy, classification report, and confusion matrix
+- Automatic storage of visualizations in the `visualizations/` folder
+
+## Installation
+To run this project, install the required dependencies using:
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+Run the script with:
+```bash
+python iris_classification.py
+```
+This will train the model, display visualizations, and print the classification results.
+
+## Dataset
+The dataset used is the **Iris dataset**, which contains:
+- `SepalLengthCm`
+- `SepalWidthCm`
+- `PetalLengthCm`
+- `PetalWidthCm`
+- `Species`
+
+## Results
+- The **RandomForestClassifier** provides high accuracy.
+- Visualizations help in understanding feature distributions.
+- The confusion matrix confirms minimal misclassifications.
+
+## Files
+- `iris_classification.py`: Main script
+- `Iris.csv`: Dataset file
+- `visualizations/`: Folder containing saved plots
+- `README.md`: Project documentation
+- `requirements.txt`: Required dependencies
+
+## Future Improvements
+- Try different models like SVM, KNN, and Decision Trees
+- Hyperparameter tuning for better accuracy
+- Deployment as a web app
+
+## Author
+DARAPUREDDY RENUKA
